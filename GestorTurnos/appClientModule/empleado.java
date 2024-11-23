@@ -30,7 +30,7 @@ public class empleado {
 	    	return puesto; 
 	    	}
 	    
-	    public boolean isActivo() {
+	    public boolean isActive() {
 	    	return active;
 	    	}
 	    
