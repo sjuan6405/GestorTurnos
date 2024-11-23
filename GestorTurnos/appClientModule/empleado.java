@@ -14,4 +14,34 @@ public class empleado {
 			this.id=id;
 			this.puesto=puesto;
 			
+			
+}
+		
+		   // Métodos getter y setter
+	    public String getNombre() { 
+	    	return nombre; 
+	    	}
+	    
+	    public int getId() {
+	    	return id;
+	    	}
+	    
+	    public String getPuesto() {
+	    	return puesto; 
+	    	}
+	    
+	    public boolean isActivo() {
+	    	return activo;
+	    	}
+	    
+	    public void desactivar() {
+	    	this.active = false; 
+	    	}
+	    
+	    public void activar() { 
+	    	this.active = true; 
+	    	}
+
+		
+		
 }
