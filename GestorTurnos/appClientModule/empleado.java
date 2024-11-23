@@ -19,20 +19,23 @@ public class empleado {
 		
 		   // Métodos getter y setter
 	    public String getNombre() { 
-	    	return nombre; 
+	    	return Nombre; 
 	    	}
 	    
 	    public int getId() {
 	    	return id;
 	    	}
 	    
+	    
 	    public String getPuesto() {
 	    	return puesto; 
 	    	}
 	    
+	    
 	    public boolean isActive() {
 	    	return active;
 	    	}
+	    
 	    
 	    public void desactivar() {
 	    	this.active = false; 
