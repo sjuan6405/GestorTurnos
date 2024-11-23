@@ -17,7 +17,7 @@ public class empleado {
 			
 }
 		
-		   // Métodos getter y setter
+		   // Métodos  getter y setter
 	    public String getNombre() { 
 	    	return Nombre; 
 	    	}
@@ -26,7 +26,7 @@ public class empleado {
 	    	return id;
 	    	}
 	    
-	    
+	  
 	    public String getPuesto() {
 	    	return puesto; 
 	    	}
