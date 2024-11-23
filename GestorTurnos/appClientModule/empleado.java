@@ -31,7 +31,7 @@ public class empleado {
 	    	}
 	    
 	    public boolean isActivo() {
-	    	return activo;
+	    	return active;
 	    	}
 	    
 	    public void desactivar() {
@@ -40,6 +40,8 @@ public class empleado {
 	    
 	    public void activar() { 
 	    	this.active = true; 
+	    	
+	    	
 	    	}
 
 		
