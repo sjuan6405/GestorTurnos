@@ -17,7 +17,7 @@ public class empleado {
 			
 }
 		
-		   // Métodos  getter y setter
+		   // Métodos  get y set
 	    public String getNombre() { 
 	    	return Nombre; 
 	    	}
